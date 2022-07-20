@@ -1,0 +1,174 @@
+/* Desktop-first Workflow */
+
+/* Below 448px */
+@media (max-width: 28em) {
+  /****** GENERAL ******/
+  /* container width, padding */
+  .rating-container,
+  .thankyou-container {
+    width: 22rem;
+  }
+  .rating-container {
+    padding: 1.9rem;
+  }
+
+  /****** MAIN 1 ******/
+  /* text */
+  .main1-text-box {
+    margin-bottom: 1.8rem;
+  }
+
+  /* circle sizes */
+  .star {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1.9rem;
+  }
+
+  /* number button sizes */
+  .numbers {
+    gap: 1rem;
+  }
+  .btn-number {
+    width: 2.9rem;
+    height: 2.9rem;
+    line-height: 3;
+  }
+
+  /****** MAIN 2 ******/
+}
+
+/* Below 379.2px */
+@media (max-width: 23.7em) {
+  /****** GENERAL ******/
+  /* container width, padding */
+  .rating-container,
+  .thankyou-container {
+    width: 20.5rem;
+    margin: 9.7rem auto;
+  }
+  .rating-container {
+    padding: 1.5rem;
+  }
+  .thankyou-container {
+    padding: 2.2rem 1.5rem 2.4rem 1.5rem;
+  }
+
+  /****** MAIN 1 ******/
+  /* text */
+  .main1-heading {
+    font-size: 1.55rem;
+    margin-bottom: 0.8rem;
+  }
+  .main1-text {
+    font-size: 0.88rem;
+  }
+
+  /* circle sizes */
+  .star {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1.3rem;
+  }
+
+  /* number button sizes */
+  .numbers {
+    gap: 1.2rem;
+    margin-bottom: 1.6rem;
+  }
+  .btn-number {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.9rem;
+    line-height: 2.9;
+  }
+
+  /* submit button */
+  .btn-submit {
+    padding: 0.8rem 0 0.7rem 0;
+    margin-bottom: 0.45rem;
+  }
+
+  /****** MAIN 2 ******/
+  /* image */
+  .thankyou-img-box {
+    margin-bottom: 1.6rem;
+  }
+  .thankyou-img {
+    width: 9rem;
+  }
+
+  /* rating result */
+  .rating-result {
+    width: 10.5rem;
+    margin-bottom: 1.9rem;
+  }
+  .result-text {
+    font-size: 0.9rem;
+  }
+
+  /* text */
+  .main2-heading {
+    font-size: 1.55rem;
+  }
+  .main2-text {
+    font-size: 0.87rem;
+  }
+}
+
+/* Below 350.4px */
+@media (max-width: 21.9em) {
+  /****** GENERAL ******/
+  /* container width, padding */
+  .rating-container,
+  .thankyou-container {
+    width: 17rem;
+    margin: 9.7rem auto;
+  }
+
+  /****** MAIN 1 ******/
+  /* circle sizes */
+  .star {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-bottom: 1.3rem;
+  }
+
+  /* number button sizes */
+  .numbers {
+    gap: 0.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .btn-number {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.9rem;
+    line-height: 2.4;
+  }
+
+  /****** MAIN 2 ******/
+  /* image */
+  .thankyou-img-box {
+    margin-bottom: 1.6rem;
+  }
+  .thankyou-img {
+    width: 8.6rem;
+  }
+
+  /* rating result */
+  .rating-result {
+    width: 10rem;
+    margin-bottom: 1.7rem;
+  }
+  .result-text {
+    font-size: 0.8rem;
+  }
+
+  /* text */
+  .main2-heading {
+    font-size: 1.5rem;
+  }
+  .main2-text {
+    font-size: 0.82rem;
+  }
+}
