@@ -65,6 +65,10 @@ body {
   color: hsl(217, 12%, 63%);
 }
 
+main {
+  margin: 0 auto;
+}
+
 /* GENERAL */
 /*----------------- rating-container -----------------*/
 .rating-container {
@@ -157,7 +161,8 @@ body {
   display: block;
 
   border: none;
-  width: 21rem;
+  /* width: 21rem; */
+  width: 100%;
   text-decoration: none;
   font-family: inherit;
   font-size: 1rem;
