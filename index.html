@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+
+  <body>
+    <main class="main-1">
+      <!-- Rating state start -->
+      <div class="rating-container">
+        <div class="star">
+          <img class="star-icon" src="images/icon-star.svg" alt="Star icon" />
+        </div>
+
+        <div class="main1-text-box">
+          <h1 class="main1-heading">How did we do?</h1>
+          <p class="main2-text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+
+        <div class="numbers">
+          <button class="btn-number star-1" href="#">1</button>
+          <button class="btn-number star-2" href="#">2</button>
+          <button class="btn-number star-3" href="#">3</button>
+          <button class="btn-number star-4" href="#">4</button>
+          <button class="btn-number star-5" href="#">5</button>
+        </div>
+
+        <div class="sumbit">
+          <button class="btn-submit" href="#">submit</button>
+        </div>
+      </div>
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <!-- <div class="thanyou-container"></div> -->
+      <!-- You selected -->
+      <!-- Add rating here -->
+      <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch! -->
+      <!-- Thank you state end -->
+    </main>
+    <main class="main-2 hidden">
+      <div class="thankyou-container">
+        <div class="thankyou-img-box">
+          <img
+            class="thankyou-img"
+            src="images/illustration-thank-you.svg"
+            alt="Illustration of a phone with credit card and bill"
+          />
+        </div>
+        <div class="rating-result">
+          <p class="result-text">
+            You selected <span class="result-number"></span> out of 5
+          </p>
+        </div>
+        <div class="main2-text-box">
+          <h2 class="main2-heading">Thank you!</h2>
+          <p class="main2-text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
