@@ -141,7 +141,6 @@ main {
 
   background-color: hsla(216, 12%, 54%, 0.15);
   border-radius: 50%;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
@@ -149,6 +148,7 @@ main {
 .btn-number:active {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 /*----------------- btn -----------------*/
@@ -174,7 +174,6 @@ main {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
   border-radius: 3rem;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 
   padding: 0.9rem 0 0.75rem 0;
@@ -185,6 +184,7 @@ main {
 .btn-submit:active {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 /* THANK YOU STATE */
