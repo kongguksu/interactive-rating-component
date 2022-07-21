@@ -6,9 +6,6 @@ let starNum;
 const main1 = document.querySelector(`.main-1`);
 const main2 = document.querySelector(`.main-2`);
 
-// const star = document.querySelector(`.btn-number`);
-// const stars = document.querySelectorAll(`.btn-number`);
-
 const starContainer = document.querySelector(`.numbers`);
 const stars = starContainer.getElementsByTagName(`button`);
 
