@@ -60,6 +60,17 @@ submit.addEventListener(`click`, function () {
 I couldn't follow the DRY principle so I found a resource to get help and fixed it!
 - resource - [https://travis.media/how-to-add-and-remove-a-class-from-list-items-with-pure-javascript/#:~:text=Just%20click%20on%20the%20buttons%20and%20see.&text=When%20you%20click%20on%20another,box%20shadow%20to%20the%20button.]
 
+```js
+stars.forEach(star =>
+  star.addEventListener(`click`, function () {
+    document.querySelector(`.star-clicked`)
+      ? document.querySelector(`.star-clicked`).classList.remove(`star-clicked`)
+      : ``;
+    this.classList.add(`star-clicked`);
+    starNum = star.innerHTML;
+  });
+```
+
 ## Author
 
 - Frontend Mentor - [@kongguksu](https://www.frontendmentor.io/profile/kongguksu)
